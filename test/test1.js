@@ -1,6 +1,3 @@
-## Javascript library for limiting async work
-
-````javascript
 const STQ = require('../lib/simple-task-queue');
 
 const queue = new STQ(2);
@@ -15,4 +12,3 @@ for (let i = 0; i < 5; i++) {
         console.log(`END   ${i} ${Date.now()}`);
     });
 }
-````
