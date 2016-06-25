@@ -1,9 +1,9 @@
 ## Javascript library for limiting async work
 
 ````javascript
-const STQ = require('../lib/simple-task-queue');
+var STQ = require('../lib/simple-task-queue');
 
-const queue = new STQ(2);
+var queue = new STQ(2); // 2 - concurrency limit (default 1)
 
 for (let i = 0; i < 5; i++) {
     queue.add(() => {

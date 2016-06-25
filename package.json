@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Bacher/simple-task-queue/issues"
   },
-  "homepage": "https://github.com/Bacher/simple-task-queue#readme"
+  "homepage": "https://github.com/Bacher/simple-task-queue#readme",
+  "files": [
+    "lib/"
+  ]
 }
